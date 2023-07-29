@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.weeklysanthe" >
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>-->
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Weekly Santhe"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Flash_page"
+
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Chooseamode_page"></activity>
+        <activity android:name=".FarmerLogin_page"></activity>
+        <activity android:name=".MerchantLogin_page"></activity>
+        <activity android:name=".Merchantsign_page"></activity>
+        <activity android:name=".Farmersign_page"></activity>
+        <activity android:name=".Forgotpassword_page"></activity>
+        <activity android:name=".Mforgotpassword_page"></activity>
+        <activity android:name=".Merchanthome_page"></activity>
+        <activity android:name=".SelectCityF_page"></activity>
+        <activity android:name=".SelectCityV_page"></activity>
+        <activity android:name=".SelectCityG_page"></activity>
+        <activity android:name=".Farmerhome_page"></activity>
+        <activity android:name=".Vegetables_details"></activity>
+        <activity android:name=".Fruit_details"></activity>
+        <activity android:name=".Grocery_details"></activity>
+        <activity android:name=".Aboutus_page"></activity>
+        <activity android:name=".Contactus_page"></activity>
+        <activity android:name=".Feedback_page"></activity>
+        <activity android:name=".Fruit_name_list"></activity>
+        <activity android:name=".Grocery_display_page"></activity>
+        <activity android:name=".Fruits_page"></activity>
+        <activity android:name=".Grocery_name_list"></activity>
+       <activity android:name=".Veg_display_page"></activity>
+        <activity android:name=".Vegetables_page"></activity>
+        <activity android:name=".Groceries_page"></activity>
+        <activity android:name=".Golive_page"></activity>
+        <activity android:name=".Googleform_page"></activity>
+        <activity android:name=".Payment_page"></activity>
+        <activity android:name=".Fruit_display_page"></activity>
+        <activity android:name=".VCS_page"></activity>
+        <activity android:name=".Vehicle_charging_station_details"></activity>
+        <activity android:name=".Proceednext_page"></activity>
+
+
+
+    </application>
+
+</manifest>

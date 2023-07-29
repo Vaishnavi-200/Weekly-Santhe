@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Santhe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Vegetables">
+        <item>Select Vegetables</item>
+        <item>Tomato</item>
+        <item>Peaces</item>
+        <item>Carrot</item>
+        <item>Raddish</item>
+        <item>Cucumber</item>
+        <item>Beetroot</item>
+    </string-array>
+
+    <string-array name="City">
+        <item>Select City</item>
+        <item>Gadag</item>
+        <item>Hubli</item>
+        <item>Goa</item>
+        <item>Ron</item>
+        <item>Mysore</item>
+    </string-array>
+
+    <string-array name="Fruits">
+        <item>Select Fruits</item>
+        <item>Apple</item>
+        <item>Mango</item>
+        <item>Blue Barrey</item>
+        <item>Cheery</item>
+        <item>Peeru</item>
+        <item>Jack Fruit</item>
+    </string-array>
+
+    <string-array name="Grocery">
+        <item>Select Fruits</item>
+        <item>Wheat</item>
+        <item>Jute</item>
+        <item>Flour Barrey</item>
+        <item>Cheery</item>
+        <item>Peeru</item>
+        <item>Jack Fruit</item>
+    </string-array>
+
+
+</resources>

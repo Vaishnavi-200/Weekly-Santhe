@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/y">
+
+
+    <!--<Button-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="FARMER"-->
+        <!--android:textSize="30dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_marginTop="120dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/bt1"/>-->
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="150sp"
+        android:src="@drawable/far"
+        android:id="@+id/m"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FARMER"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        />
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="150sp"
+        android:src="@drawable/m"
+        android:id="@+id/far"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MERCHANT"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"/>
+
+
+
+    <!--<Button-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="MERCHANT"-->
+        <!--android:textSize="30dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:background="#FFFFFF"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:id="@+id/bt2"/>-->
+
+</LinearLayout>

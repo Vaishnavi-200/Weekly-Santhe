@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_contact"
+        android:title="Contact"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_help"
+        android:title="Help"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_payment"
+        android:title="Payment"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_logout"
+        android:title="Logout"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_golive"
+        android:title="GoLive"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+</menu>

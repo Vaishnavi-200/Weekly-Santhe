@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/g">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="35dp"
+        android:layout_margin="20dp"
+        android:id="@+id/cv"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150sp"-->
+                <!--android:src="@drawable/vaish"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:id="@+id/img"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VAISHNAVI DESAI"
+                android:textColor="#299438"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6360775210"
+                android:textColor="#03254c"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/ph"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="100sp"
+                android:src="@drawable/ph"
+                android:layout_gravity="center"
+                android:id="@+id/img"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vaishnavidesai30042001@gmail.com"
+                android:textColor="#03254c"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/email"/>
+
+            <!--<ImageView-->
+                <!--android:layout_width="150dp"-->
+                <!--android:layout_height="150sp"-->
+                <!--android:src="@drawable/sneha"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:id="@+id/img1"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SNEHA MALOJI"
+                android:textColor="#299438"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/name1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9686057088"
+                android:textColor="#03254c"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/ph1"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="100sp"
+                android:src="@drawable/ph"
+                android:layout_gravity="center"
+                android:id="@+id/img1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="snehamaloji@gmail.com"
+                android:textColor="#03254c"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/email1"/>
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
